@@ -1,0 +1,120 @@
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+
+}
+
+.mypersonalphoto {
+    transition: height 0.15s;
+}
+
+.mypersonalphoto:hover {
+    object-position: center;
+    height: 500px;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+p {
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+}
+
+.ul-article-friends {
+    text-align: center;
+    margin-left: -40px;
+}
+
+.article-lifestory {
+    display: flex;
+    flex-direction: row;
+    max-height: 200px;
+    height: 200px;
+    padding: 50px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    margin-top: 0px;
+    
+}
+
+.figure-favorate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.article-text {
+    margin: 10px;
+    height: 100px;
+    width: 600px;
+}
+
+.figure-img-l {
+    margin-left: 0px;
+    margin-right: 0px;
+    flex: 1;
+}
+
+.figure-img-r {
+    margin-left: 0px;
+    margin-right: 50px;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .article-lifestory {
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+        padding: 20px;
+        justify-content: space-evenly;
+        margin-bottom: 400px;
+        
+    }
+}
+ 
+@media (max-width: 600px) {
+    .figure-favorate {
+        display: block;
+        justify-content: center;
+    }
+
+    .figure-img-r {
+        margin-left: 50px;
+        margin-right: 50px;
+        flex: 1;
+    }
+
+    .figure-img-l {
+        margin-left: 0px;
+        margin-right: 0px;
+        flex: 1;
+    }
+    .article-lifestory {
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+        padding: 20px;
+        justify-content: space-evenly;
+        margin-bottom: 230px;
+        
+    }
+
+}

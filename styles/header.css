@@ -1,0 +1,73 @@
+
+.h1_myself {
+    justify-content: center;
+    text-align: center;
+}
+
+.container-nav {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    background-image: url(BG/purplebg.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    
+
+}
+
+.ul-navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+   
+
+}
+
+.nav-btn {
+    cursor: pointer;
+    color: white;
+}
+
+.nav-btn:hover {
+    opacity: 0.7;
+}
+
+.nav-btn:active{
+    opacity: 0.3;
+}
+
+button {
+    display: flex;
+    flex: 1;
+    background-color: purple;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: purple;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+    button {
+        display: flex;
+        flex: 1;
+        background-color: purple;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: purple;
+        padding: 5px;
+        margin: 5px;
+        font-size: 10px;
+        
+        
+    }
+}
